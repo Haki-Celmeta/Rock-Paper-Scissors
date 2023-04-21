@@ -4,9 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Rock Paper Scissors</title>
   </head>
   <body>
+    <div class="main-container">
+      <div class="image-container">
+        <img src="images/rock.png" alt="rock" id="rock" />
+        <img src="images/papper.png" alt="papper" id="papper" />
+        <img src="images/scissors.png" alt="scissors" id="scissors" />
+      </div>
+
+      <div class="total-game">
+        Total Game: <br />
+        <div id="total-player-game">You: 0 <br /></div>
+        <div id="total-computer-game">Computer: 0</div>
+      </div>
+
+      <div class="who-won">Who won this round?</div>
+
+      <div class="point-container">
+        <div class="points">
+          <h4 id="player-point">You: 0 points</h4>
+        </div>
+        <div class="points">
+          <h4 id="computer-point">Computer: 0 points</h4>
+        </div>
+      </div>
+
+      <div class="won-loose-container">
+        <h2 id="won">You Won</h2>
+        <h2 id="loose">Computer Loose</h2>
+        <img
+          src="images/92015-200-removebg-preview.png"
+          alt="repeat button"
+          id="repeat-button"
+        />
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
