@@ -9,7 +9,7 @@ function getComputerChoice() {
 function selection(playerSelection, computerSelection) {
   let ps = playerSelection.toLowerCase();
   if (ps === computerSelection) {
-    return "draw, play again";
+    return "draw, play again, adjfaosdijfvjdf;vj";
   } else if (ps === "rock" && computerSelection === "paper") {
     computerWins++;
     return "You lose! Paper beats rock";
